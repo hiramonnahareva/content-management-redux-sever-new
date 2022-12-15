@@ -68,7 +68,7 @@ finally{
 run().catch(console.dir)
 
 app.get('/', (req, res) => {
-    res.send('Running Node CRAD Server')
+    res.send('Running The Node CRAD Server')
 });
 app.listen(port, () => {
     console.log("CRAD Server is running")
